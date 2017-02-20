@@ -5,13 +5,13 @@ Highlights:
 - randomuser.me api is used for getting the data
 - Model's classes code is created using jsonschema2pojo.org for fast and direct creation
 - Additionally, Picasso library is also used for downloading the image from the URL and loading it and into the ImageViews
-- CircularImageView is also used to display image in each item of RecyclerView cropped in a circle
+- CircleImageView is also used to display image in each item of RecyclerView cropped in a circle
 
 Libraries/components used:
 - RecyclerView
 - Retrofit
 - Picasso
-- CircularImageView
+- CircleImageView
 
 Installing external libraries into project
 - Open app/build.gradle file
