@@ -1,21 +1,21 @@
 This project demonstrate simple impelementation of RecyclerView and Retrofit libraries.
 
 Highlights:
-	-> Displays a list of 20 random users with name, email and picture, in RecyclerView
-	-> randomuser.me api is used for getting the data
-	-> Model's classes code is created using jsonschema2pojo for fast and direct creation
-	-> Additionally, Picasso library is also used for downloading the image from the URL and loading it and into the ImageViews
-	-> CircularImageView is also used to display image in each item of RecyclerView cropped in a circle
+1. Displays a list of 20 random users with name, email and picture, in RecyclerView
+2. randomuser.me api is used for getting the data
+3. Model's classes code is created using jsonschema2pojo for fast and direct creation
+4. Additionally, Picasso library is also used for downloading the image from the URL and loading it and into the ImageViews
+5. CircularImageView is also used to display image in each item of RecyclerView cropped in a circle
 
 Libraries/components used:
-	-> RecyclerView
-	-> Retrofit
-	-> Picasso
-	-> CircularImageView
+1. RecyclerView
+2. Retrofit
+3. Picasso
+4. CircularImageView
 
 Installing external libraries into project
-	-> Open app/build.gradle file
-	-> Modify dependencies block by adding below lines in the end of it:
+1. Open app/build.gradle file
+2. Modify dependencies block by adding below lines in the end of it:
 
 	   dependecies{
 			...
@@ -27,4 +27,4 @@ Installing external libraries into project
 	    	compile 'com.android.support:recyclerview-v7:25.1.1'
 	    	compile 'de.hdodenhof:circleimageview:2.1.0'
 		}
-	-> Click on 'Sync Now'
+3. Click on 'Sync Now'
